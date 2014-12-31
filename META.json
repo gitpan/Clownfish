@@ -4,7 +4,7 @@
       "The Apache Lucy Project <dev at lucy dot apache dot org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4205",
    "keywords" : [
       "clownfish"
    ],
@@ -19,7 +19,6 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Clownfish::CFC" : "0.004001",
             "Devel::PPPort" : "3.14",
             "ExtUtils::CBuilder" : "0.21",
             "ExtUtils::ParseXS" : "2.18",
@@ -28,7 +27,6 @@
       },
       "configure" : {
          "requires" : {
-            "Clownfish::CFC::Perl::Build" : "0.004001",
             "Module::Build" : "0.280801"
          }
       },
@@ -41,63 +39,63 @@
    "provides" : {
       "Clownfish" : {
          "file" : "lib/Clownfish.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::ByteBuf" : {
          "file" : "lib/Clownfish/ByteBuf.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::Class" : {
          "file" : "lib/Clownfish/Class.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::Err" : {
          "file" : "lib/Clownfish/Err.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::Hash" : {
          "file" : "lib/Clownfish/Hash.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::LockFreeRegistry" : {
          "file" : "lib/Clownfish/LockFreeRegistry.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::Method" : {
          "file" : "lib/Clownfish.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::Num" : {
          "file" : "lib/Clownfish/Num.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::Obj" : {
          "file" : "lib/Clownfish/Obj.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::StackString" : {
          "file" : "lib/Clownfish.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::String" : {
-         "file" : "lib/Clownfish/CharBuf.pm",
-         "version" : "0.004001"
+         "file" : "lib/Clownfish.pm",
+         "version" : "0.004002"
       },
       "Clownfish::Test" : {
          "file" : "lib/Clownfish/Test.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::Util::StringHelper" : {
          "file" : "lib/Clownfish/Util/StringHelper.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::VArray" : {
          "file" : "lib/Clownfish/VArray.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       },
       "Clownfish::ViewByteBuf" : {
          "file" : "lib/Clownfish.pm",
-         "version" : "0.004001"
+         "version" : "0.004002"
       }
    },
    "release_status" : "stable",
@@ -110,5 +108,5 @@
          "url" : "https://git-wip-us.apache.org/repos/asf/lucy-clownfish.git"
       }
    },
-   "version" : "v0.4.1"
+   "version" : "v0.4.2"
 }
